@@ -1,0 +1,64 @@
+
+@media(min-width: 1200px){
+    .main{
+        width: 1000px;
+    }
+}
+
+.timeline-controls{
+    display: none !important;
+}
+
+.css-w2r0hh-TimelineContentSubTitle{
+    color: #2286ff !important;
+}
+
+.css-h9ktkk-TimelinecardTitle{
+    padding: 8px;
+    color: white !important;
+}
+
+.css-xa4des-VerticalCircleWrapper::after{
+    background: #2286ff !important;
+}
+
+.css-1a6wyps-Circle{
+    background: #2286ff !important;
+}
+
+.css-1gjx9iw-TimelineItemContentWrapper {
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.15);
+    background-color: #1c0505 !important;
+}
+
+
+
+@media(min-width: 430px){
+    .css-w2r0hh-TimelineContentSubTitle{
+        color: #2286ff !important;
+        font-size: 1.0rem !important;
+    }
+    
+    .css-h9ktkk-TimelinecardTitle{
+        font-size: 1.3rem !important;
+        padding: 8px;
+    }
+    
+    .css-xa4des-VerticalCircleWrapper::after{
+        background: #2286ff !important;
+        width: 4px !important;
+    }
+    
+    .css-1a6wyps-Circle{
+        background: #2286ff !important;
+        height: 1.1em !important;
+        width: 1.1em !important;
+    }
+    
+    .css-1f02b8t-TitleWrapper {
+        padding: 0.7rem !important;
+        font-size: 1rem !important;
+    } 
+}
+

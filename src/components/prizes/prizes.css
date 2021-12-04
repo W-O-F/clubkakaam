@@ -1,0 +1,82 @@
+/* import nextIc from "./controller/next.svg"
+import prevIc from "./controller/prev.svg" */
+
+.carousel-control-prev-icon {
+  background-image: url(./controller//prev.svg);
+  height: 50px;
+  width: 50px;
+}
+.carousel-control-next {
+  right: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-indicators {
+  margin-right: 50%;
+  margin-left: 0%;
+  bottom: -60px;
+}
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./controller/next.svg);
+  height: 50px;
+  width: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-indicators {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+
+.special-prize {
+  display: flex;
+  justify-content: space-around;
+}
+.sp-img {
+  padding: 30px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-prize .card {
+  padding: 0;
+  border-radius: 0;
+  margin-top: 50px;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.15);
+}
+
+.special-prize .card .card-body {
+  background-color: #1c0505;
+  color: floralwhite;
+}
+
+.special-prize .card .card-title {
+  color: #aa9090;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: Poppins;
+}
+.special-prize,
+.sp-img {
+  background-color: #0f0000;
+}
+.sp-img img {
+  width: 100%;
+  height: auto;
+}
